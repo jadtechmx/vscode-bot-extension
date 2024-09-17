@@ -1,0 +1,27 @@
+{
+  "name": "jadsito",
+  "displayName": "Jadsito Extension",
+  "description": "Una extensión de snippets personalizada para tu desarrollo.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usuario/mi-repositorio.git"
+  },
+  "author": "JAD Tech",
+  "license": "MIT",
+  "icon": "images/logo_jadtech.png"
+}
